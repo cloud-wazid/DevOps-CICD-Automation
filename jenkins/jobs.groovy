@@ -9,7 +9,7 @@ pipelineJob('DevOps-CICD-Build') {
                     branch('*/main')
                 }
             }
-            scriptPath('Jenkinsfile')
+            scriptPath('jenkins/build.Jenkinsfile')
         }
     }
 }
@@ -25,7 +25,7 @@ pipelineJob('DevOps-CICD-Test') {
                     branch('*/main')
                 }
             }
-            scriptPath('Jenkinsfile')
+            scriptPath('jenkins/test.Jenkinsfile')
         }
     }
 }
@@ -41,7 +41,7 @@ pipelineJob('DevOps-CICD-Deploy') {
                     branch('*/main')
                 }
             }
-            scriptPath('Jenkinsfile')
+            scriptPath('jenkins/deploy.Jenkinsfile')
         }
     }
 }
