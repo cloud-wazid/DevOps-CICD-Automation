@@ -1,0 +1,2 @@
+Hello DevOps CI/CD Automation!
+Build -> Test -> Deploy
